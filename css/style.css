@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono';
+}
+
+header {
+    background-image: url('../img/background.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar_logo {
+    position: absolute;
+    margin: 45px 138px;
+    transform: translate(-50%,-50%);
+}
+
+.active {
+    color: white;
+    border-bottom: 1px solid #6bffafff;
+}
+
+.navbar ul {
+    float: left;
+    list-style-type: none;
+    margin: 20px 280px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    border-bottom: 1px solid #6bffafff;
+}
+
+.navbar_links ul {
+    float: right;
+    list-style-type: none;
+}
+
+.navbar_links ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar_links ul li a {
+    text-decoration: none;
+    width: 32px;
+    height: auto;
+    transition: 0.2s ease;
+}
+
+.navbar_links ul li :hover {
+    transform: scale(1.155);
+    z-index: 2.2;
+    transition: 0.2s ease;
+}
+
+/* Title and subtitle */
+.title {
+    font-size: 32px;
+    color: #ffffff;
+    position: absolute;
+    top: 36.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    top: 42.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.projects {
+    padding-top: 5.5%;
+    padding-left: 4%;
+}
+
+.projects ol {
+    list-style-type: circle;
+}
+
+.projects ol li {
+    padding: 15px;  
+}
+
+.projects ol li a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.projects ol li a:hover {
+    border-bottom: #ffffff;
+}
+
+.about {
+    margin: 1% 25.8%;
+    position: absolute;
+    transform: translate(-50%,50%);
+}
+
+.about ul {
+    list-style-type: none;
+}
+
+.about ul li {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: justify;
+}
